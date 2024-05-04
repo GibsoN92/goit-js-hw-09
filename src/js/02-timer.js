@@ -68,9 +68,9 @@ function startTimer() {
 }
 
 function updateTimer(countdown) {
-  days.textContent = countdown.days;
-  hours.textContent = countdown.hours;
-  minutes.textContent = countdown.minutes;
+  days.textContent = countdown.days + ':';
+  hours.textContent = countdown.hours + ':';
+  minutes.textContent = countdown.minutes + ':';
   seconds.textContent = countdown.seconds;
 }
 
